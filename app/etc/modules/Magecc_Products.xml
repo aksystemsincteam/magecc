@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * @category   Magecc
+ * @package    Magecc_Products
+ */
+ -->
+<config>
+    <modules>
+        <Magecc_Products>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Magecc_Products>
+    </modules>
+</config> 

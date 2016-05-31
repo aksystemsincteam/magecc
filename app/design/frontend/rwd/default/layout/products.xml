@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+   <layout version="0.1.0">
+       <products_index_index>
+           <reference name="root">
+               <action method="setTemplate"><template>page/empty.phtml</template></action>
+               <action method="setHeaderTitle" translate="title" module="products"><title>Products</title></action>
+           </reference>
+           <reference name="head">
+               <action method="setTitle" translate="title" module="products"><title>Products</title></action>
+           </reference>
+           <reference name="content">
+               <block type="products/products" name="products" template="products/list.phtml" />
+           </reference>
+       </products_index_index>
+   </layout> 

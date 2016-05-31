@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * @category   Magecc
+ * @package    Magecc_Products
+ */
+ -->
+<config>
+    <modules>
+        <Magecc_Products>
+            <version>0.1.0</version>
+        </Magecc_Products>
+    </modules>
+    <frontend>
+        <routers>
+            <products>
+                <use>standard</use>
+                <args>
+                    <module>Magecc_Products</module>
+                    <frontName>products</frontName>
+                </args>
+            </products>
+        </routers>
+        <layout>
+            <updates>
+                <products>
+                    <file>products.xml</file>
+                </products>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <blocks>
+            <products>
+                <class>Magecc_Products_Block</class>
+            </products>
+        </blocks>
+        <helpers>
+            <products>
+                <class>Magecc_Products_Helper</class>
+            </products>
+        </helpers>
+    </global>
+</config>
